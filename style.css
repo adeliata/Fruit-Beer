@@ -3,6 +3,10 @@ body {
     font-family: "Trirong", serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header div {
     font-size:xx-large;
 }
