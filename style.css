@@ -2,9 +2,11 @@ body {
     margin: 0px;
     font-family: "Trirong", serif;
 }
+
 header div {
     font-size:xx-large;
 }
+
 header {
     display: flex;
     top: 0;
@@ -22,6 +24,7 @@ header div img {
     height: 100px;
     scale: 1;
 }
+
 nav a {
     padding: 10px 25px;
     text-decoration: none;
@@ -33,10 +36,12 @@ nav a {
     border-radius: 30px;
     background-color: rgb(255, 254, 240);
 }
+
 nav a:hover {
     background-color: darkgray;
     border-radius: 10px;
 }
+
 section.home {
     background-image: url("1745804608516.png");
     background-size: cover;
@@ -45,6 +50,7 @@ section.home {
     height: 600px;
     padding-top: 100px;
 }
+
 section.home div {
     text-align: center;
     color: rgb(45, 35, 99);
@@ -52,6 +58,7 @@ section.home div {
     width: 70%;
     padding: 20px;
 }
+
 section.home .welcome {
     font-size: 30px;
     color:antiquewhite;
@@ -59,6 +66,7 @@ section.home .welcome {
     max-width:fit-content;
     border-radius: 10px;
 }
+
 section.home a {
     color: rgb(45, 35, 99);
     padding: 10px 20px;
@@ -67,38 +75,45 @@ section.home a {
     border-radius: 20px;
     background-color: antiquewhite;
 }
+
 section.about {
     background-color: rgb(45, 35, 99);
     height: 1100px;
     padding-top: 100px;
 }
+
 section.about div {
     color: antiquewhite;
     text-align: center;
     margin: auto;
     width: 70%;
 }
+
 section.about img {
     height: auto;
     border: 1cm;
     border-radius: 15px;
     width: 70%;
 }
+
 section.about img:hover{
     transform: scale(1.050);
 }
+
 section.product {
     background-color:  rgb(45, 35, 99);
     background-size: cover;
     background-attachment: fixed;
     height: 3000px;
 }
+
 section.product .container {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
 }
+
 section.product .container .card {
     background-color: antiquewhite;
     text-align: center;
@@ -112,9 +127,12 @@ section.product .container .card {
     flex-direction: column;
     align-items: center;
 }
+
 section.product .container .card img {
     width: 100%;
+    border-radius: 10px;
 }
+
 section.product .container .card a {
     color: rgb(21, 17, 49);
     padding: 5px 20px;
@@ -123,23 +141,79 @@ section.product .container .card a {
     border-radius: 20px;
     padding: 5px 10px;
 }
+
 section.product .container .card a:hover{
     transition: 0.5s;
     transition: 0.5s;
     background-color: rgb(91, 91, 255);
 }
+
 section.product .container .card:hover{
     box-shadow: 0 0 5px whitesmoke;
     transition: 0.5s;
     overflow: hidden;
     transition: 0.5s;
 }
+
+section.order {
+    background-color: rgb(45, 35, 99);
+    color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+    height:fit-content;
+}
+
+section.order .card{
+    position: relative;
+    margin: 10px;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 0 5px antiquewhite;
+    text-align: center;
+    overflow:hidden;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+section.order .card .gambar{
+    position: absolute;
+    width: 100%;
+    border-radius: 20px;
+}
+
+section.order .card:hover .gambar img {
+    scale: 1.2;
+    filter: opacity(10%);
+    transition: 0.5s;
+}
+
+section.order .card .gambar img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+section.order .card .description {
+    position:absolute;
+    top:300px;
+    padding: 0px 10px;
+    transition: 0.5s;
+}
+
+section.order .card:hover .description{
+    top:0px;
+    transition: 0.5s;
+}
 section.contact {
     background-image: url("Bg contact.jpg");
     height: 600px;
 }
+
 section.contact .card {
-    background-color: rgb(35, 44, 62);
+    background-color: rgb(45, 35, 99);
     margin: auto;
     color:blanchedalmond;
     text-align: center;
@@ -147,24 +221,29 @@ section.contact .card {
     width: 400px;
     border-radius: 20px;
 }
+
 section.contact .card img {
     width: 300px;
     border-radius: 20px;
     border-color: antiquewhite;
     border-width: 1cm;
 }
+
 section.contact .card img:hover {
     transform: scale(1.050);
 }
+
 footer {
     background-color: antiquewhite;
     height: 50px;
     text-align: center;
     font-size: larger;
 }
+
 footer .medsos {
     padding-top: 10px;
 }
+
 footer .medsos a {
     color: rgb(45, 35, 99);
     font-size: 20px;
